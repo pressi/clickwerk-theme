@@ -13,7 +13,7 @@
 namespace Clickwerk\Theme;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
-use ClickWerk\ThemeBundle\DependencyInjection\ClickWerkThemeExtension;
+use ClickWerk\Theme\DependencyInjection\ClickwerkThemeExtension;
 
 /**
  * Configures the Contao IIDO Basic Bundle.
