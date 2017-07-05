@@ -36,7 +36,7 @@
     {
         "psr-4":
         {
-            "ClickWerk\\ThemeBundle\\"   : ""
+            "Clickwerk\\Theme\\"   : ""
         },
 
         "classmap":
@@ -62,6 +62,6 @@
         {
             "dev-develop" : "4.4.x-dev"
         },
-        "contao-manager-plugin" : "ClickWerk\\ThemeBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin" : "Clickwerk\\Theme\\ContaoManager\\Plugin"
     }
 }

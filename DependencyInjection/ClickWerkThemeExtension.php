@@ -10,7 +10,7 @@
  *
  *******************************************************************/
 
-namespace Clickwerk\ThemeBundle\DependencyInjection;
+namespace Clickwerk\Theme\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

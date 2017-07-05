@@ -10,7 +10,7 @@
  *
  ******************************************************************/
 
-namespace Clickwerk\ThemeBundle\EventListener;
+namespace Clickwerk\Theme\EventListener;
 
 use Contao\CoreBundle\Framework\ContaoFrameworkInterface;
 use Contao\Environment;

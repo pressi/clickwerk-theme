@@ -10,7 +10,7 @@
  *
  *******************************************************************/
 
-namespace Clickwerk\ThemeBundle;
+namespace Clickwerk\Theme;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use ClickWerk\ThemeBundle\DependencyInjection\ClickWerkThemeExtension;
@@ -25,7 +25,7 @@ class ClickwerkThemeBundle extends Bundle
 
     /**
      * Register extension
-     * @return \Clickwerk\ThemeBundle\DependencyInjection\ClickwerkThemeExtension
+     * @return \Clickwerk\Theme\DependencyInjection\ClickwerkThemeExtension
      */
     public function getContainerExtension()
     {

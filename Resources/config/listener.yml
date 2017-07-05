@@ -1,5 +1,5 @@
 services:
     clickwerk_theme.listener.backend_template:
-        class: Clickwerk\ThemeBundle\EventListener\BackendTemplateListener
+        class: Clickwerk\Theme\EventListener\BackendTemplateListener
         arguments:
             - "@contao.framework"
