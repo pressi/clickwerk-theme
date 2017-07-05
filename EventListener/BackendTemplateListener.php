@@ -88,8 +88,11 @@ class BackendTemplateListener
 <script src="bundles/clickwerktheme/javascript/jquery/jquery.hc-sticky.min.js"></script>
 <script>setTimeout(function(){var fromTop = jQuery("#header").height(); jQuery("#left").hcSticky({top:fromTop});jQuery("#container").css("padding-top", fromTop);}, 500);</script>';
 
+            $css = '<link rel="stylesheet" href="bundles/clickwerktheme/css/backend.css">';
+
 
             $strContent = preg_replace('/<\/body>/', $scripts . '</body>', $strContent);
+            $strContent = preg_replace('/<body/', $css . '<body', $strContent);
         }
 
         return $strContent;
