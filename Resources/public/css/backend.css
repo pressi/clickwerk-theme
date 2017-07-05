@@ -21,7 +21,7 @@ body.popup #main .tl_formbody_submit {
 }
 
 #left .version {
-    padding-top: 2em;
+    margin-top: 2em;
 }
 
 #header {
@@ -35,4 +35,41 @@ body.popup #main .tl_formbody_submit {
 
 #container {
     padding-top: 48px;
+}
+
+body {
+    background: #eaeaec url(../img/clickwerk.svg) center 1.0em no-repeat;
+	background-size: 50.0em;
+}
+
+#header {
+    background: #fa4225;
+}
+
+#tl_navigation .tl_level_2 li.active {
+    border-left-color: #fa4225;
+}
+
+#tl_breadcrumb {
+    border: 1px solid #fa4225;
+	background: #feece9;
+}
+
+.hover-div:hover, .hover-row:hover td, .hover-div:hover .limit_toggler, .hover-row:hover .limit_toggler {
+    background-color: #feece9!important;
+}
+
+.tl_login_form .formbody {
+	padding-bottom: 0px;
+}
+
+#header h1 a {
+ 	background: url(../img/clickwerk.svg) center 0em no-repeat;
+    background-size: 10.0em;
+	padding: 0px 12px 0px 36px;
+    overflow: hidden;
+    display: block;
+    text-indent: -9999px;
+    height: 48px;
+    width: 92px;
 }
