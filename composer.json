@@ -39,10 +39,6 @@
             "Clickwerk\\Theme\\"   : ""
         },
 
-        "classmap":
-        [
-            "Resources/contao/classes/"
-        ],
         "exclude-from-classmap":
         [
             "tests/",
