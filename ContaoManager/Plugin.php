@@ -10,9 +10,9 @@
  *
  *******************************************************************/
 
-namespace ClickWerk\ThemeBundle\ContaoManager;
+namespace Clickwerk\ThemeBundle\ContaoManager;
 
-use ClickWerk\ThemeBundle\ClickWerkThemeBundle;
+use Clickwerk\ThemeBundle\ClickwerkThemeBundle;
 use Contao\CoreBundle\ContaoCoreBundle;
 
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
@@ -36,7 +36,7 @@ class Plugin implements BundlePluginInterface, RoutingPluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create(ClickWerkThemeBundle::class)
+            BundleConfig::create(ClickwerkThemeBundle::class)
                 ->setLoadAfter([ContaoCoreBundle::class]),
         ];
     }

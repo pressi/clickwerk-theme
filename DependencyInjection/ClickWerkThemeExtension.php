@@ -10,7 +10,7 @@
  *
  *******************************************************************/
 
-namespace ClickWerk\ThemeBundle\DependencyInjection;
+namespace Clickwerk\ThemeBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -22,7 +22,7 @@ use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
  *
  * @author Stephan Preßl <https://github.com/pressi>
  */
-class ClickWerkThemeExtension extends Extension
+class ClickwerkThemeExtension extends Extension
 {
     /**
      * {@inheritdoc}
